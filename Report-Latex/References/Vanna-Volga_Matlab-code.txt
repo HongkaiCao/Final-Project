@@ -1,0 +1,29 @@
+Below is a simple Matlab code to price a call option based on Castagna and Mercurio (2007):
+
+% option price under Vanna volga model for any strike k
+% sigma2 is ATM implied vol, k2 is ATM strike
+s = 1.205;
+t = 94/365;
+r = -log(0.9902752)/t;
+rf = -log(0.9945049)/t;
+sigma1 = 0.0979;
+sigma3 = 0.0929;
+sigma2 = 0.09375;
+k1 = 1.172;
+k3 = 1.2504;
+k2 = 1.2115;
+k = 1.24;
+Vega1 = Vega(s,k1,r,t,sigma2,rf);
+Vega3 = Vega(s,k3,r,t,sigma2,rf);
+Vegak = Vega(s,k,r,t,sigma2,rf);
+x1 = Vegak*log(k2/k)*log(k3/k)/(Vega1*log(k2/k1)*log(k3/k1));
+x3 = Vegak*log(k/k1)*log(k/k2)/(Vega3*log(k3/k1)*log(k3/k2));
+price = blsprice(s,k,r,t,sigma2,rf)+x1*(blsprice(s,k1,r,t,sigma1,rf)...
+    -blsprice(s,k1,r,t,sigma2,rf))+x3*(blsprice(s,k3,r,t,sigma3,rf)...
+    -blsprice(s,k3,r,t,sigma2,rf));
+
+where Vega is a function to compute vega under black scholes formula:
+
+function VegaValue = Vega(s,k,r,t,sigma,rf)
+d1 = (log(s/k)+(r-rf+0.5*sigma^2)*t)/(sigma*sqrt(t));
+VegaValue = s*exp(-rf*t)*sqrt(t)*normpdf(d1,0,1);
