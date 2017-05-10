@@ -14,7 +14,12 @@
 \contentsline {subsection}{\numberline {3.1.4}<Sub-section title>}{3}{subsection.3.1.4}
 \contentsline {subsection}{\numberline {3.1.5}<Sub-section title>}{3}{subsection.3.1.5}
 \contentsline {section}{\numberline {3.2}<Section title>}{3}{section.3.2}
-\contentsline {chapter}{\numberline {4}Future Work}{4}{chapter.4}
-\contentsline {chapter}{\numberline {5}Conclusion}{5}{chapter.5}
-\contentsline {chapter}{Acknowledgements}{6}{section*.5}
-\contentsline {chapter}{References}{7}{section*.7}
+\contentsline {chapter}{\numberline {4}Model Strengths and Weaknesses}{4}{chapter.4}
+\contentsline {section}{\numberline {4.1}Strengths}{4}{section.4.1}
+\contentsline {paragraph}{}{4}{section*.5}
+\contentsline {paragraph}{}{4}{section*.6}
+\contentsline {section}{\numberline {4.2}Weaknesses}{5}{section.4.2}
+\contentsline {paragraph}{}{5}{section*.7}
+\contentsline {chapter}{\numberline {5}Conclusion}{6}{chapter.5}
+\contentsline {chapter}{Acknowledgements}{7}{section*.8}
+\contentsline {chapter}{References}{8}{section*.10}

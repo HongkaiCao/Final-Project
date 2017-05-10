@@ -1,0 +1,33 @@
+\chapter{Model Strengths and Weaknesses}
+
+
+\section{Strengths}
+
+\paragraph{}
+
+As we all known that Black-Scholes model is most often used to price vanilla options. However, the parameters used in Black-Scholes model are far from market quotations. The main reason is the unrealistic assumption that the volatility remain constant throught the lifetime of the vanilla options. Besides, the volatility surfaces of FX derivatives tend to be smile shaped or skewed. Thus, Black-Scholes model is insufficient in FX market.
+	
+\paragraph{}
+
+There are models, such as Heston model and local volatility model, could capture and well replicate the smile shaped or skewed volatility surface of FX derivatives. However, none of them is easy to implement and require delicate calibration. Therefore, compare to other models used for FX derivatives, Vanna-Volga model has following strengths:
+
+\begin{itemize}
+	\item Vanna-Volga is easy to implement, comparing to other models
+	\item Vanna-Volga is simple and no or few calibration is needed
+	\item Vanna-Volga is very efficient in computation, i.e., the calculation speed is significantly better than Heston model or local volatility model
+	\item The instruments used for constructing the Vanna-volga model are very liquid in FX market. Typically, people are using straddle, risk reversal, and butterfly to construct Vanna-Volga framework
+	\item Vanna-Volga is an analytically derived correction by capturing the greeks of vanna and volga to Black-Scholes model, i.e., by using vega, vanna and volga of the options. Therefore, it is easy to understand intiuitively.
+\end{itemize}
+
+
+\section{Weaknesses}
+\paragraph{}
+Even though Vanna-Volga model also known as \textit{trader's rule of thmb} and has some features listed above, it dose have some drawbacks or conditions need to be understood before using it. Typical weaknesses of Vanna-Volga model are following:
+
+\begin{itemize}
+	\item Vanna-Volga is precise when the maturity of options is up to 1 year, since the model assumes constant interest rates which does not lead to significantly mispricing for short maturity options in FX market.
+	\item The application of Vanna-Volga model is limited to plain vanilla options and first-generation exotic options, such as barrier options, since it cannot fully replicate the volatility surface. However, many of the options in FX market is vanilla or first-generation exotic options.
+	\item Vanna-Volga model perform well when the volatility surface is standard (such as smile shaped, typical skewed) of FX derivatives.
+\end{itemize}
+
+

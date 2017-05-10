@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  25 APR 2017 16:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  10 MAY 2017 16:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -242,7 +242,7 @@ LaTeX Info: Redefining \nameref on input line 16.
 \openout3 = `report.out'.
 
  (./title.tex
-<./MFE-Logo.jpg, id=76, 687.56876pt x 169.63374pt>
+<./MFE-Logo.jpg, id=84, 687.56876pt x 169.63374pt>
 File: ./MFE-Logo.jpg Graphic file (type jpg)
  <use ./MFE-Logo.jpg>
 Package pdftex.def Info: ./MFE-Logo.jpg used on input line 4.
@@ -292,21 +292,28 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 ]
 Chapter 3.
-<./glider.png, id=135, 216.81pt x 216.81pt>
+<./glider.png, id=145, 216.81pt x 216.81pt>
 File: ./glider.png Graphic file (type png)
  <use ./glider.png>
 Package pdftex.def Info: ./glider.png used on input line 17.
 (pdftex.def)             Requested size: 65.04349pt x 65.04349pt.
 )
-(./future-work.tex [3
+(./strength-weakness.tex [3
 
  <./glider.png>]
 Chapter 4.
-) (./conclusion.tex [4
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 15.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 15.
+ [4
 
-]
+])
+(./conclusion.tex [5]
 Chapter 5.
-) (./acknow.tex [5
+) (./acknow.tex [6
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 7--16
@@ -333,12 +340,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--16
 
  []
 
-[6
+[7
 
 
 ]) (./ref.tex)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 39.
- [7
+ [8
 
 
 ]
@@ -347,17 +354,17 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 39.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 39.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 39.
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 25FF7F9B3309859770B7189CE7657A2A;1096.
+(rerunfilecheck)             Checksum: 933578AFAF9EB4638F361722E3F3F1DD;1229.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 39.
  ) 
 Here is how much of TeX's memory you used:
- 5176 strings out of 493014
- 77078 string characters out of 6133351
- 159973 words of memory out of 5000000
- 8634 multiletter control sequences out of 15000+600000
+ 5201 strings out of 493014
+ 77485 string characters out of 6133351
+ 160973 words of memory out of 5000000
+ 8650 multiletter control sequences out of 15000+600000
  9317 words of font info for 33 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,8n,28p,414b,347s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,8n,28p,503b,381s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
 ></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
@@ -365,12 +372,13 @@ Here is how much of TeX's memory you used:
 sr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr
 /local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/lo
 cal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local
-/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/
-texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on report.pdf (10 pages, 128698 bytes).
+/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/
+texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/t
+exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on report.pdf (11 pages, 143462 bytes).
 PDF statistics:
- 208 PDF objects out of 1000 (max. 8388607)
- 182 compressed objects within 2 object streams
- 38 named destinations out of 1000 (max. 500000)
- 155 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 231 PDF objects out of 1000 (max. 8388607)
+ 202 compressed objects within 3 object streams
+ 44 named destinations out of 1000 (max. 500000)
+ 171 words of extra memory for PDF output out of 10000 (max. 10000000)
 
