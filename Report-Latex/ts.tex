@@ -1,0 +1,82 @@
+\chapter{Technical Specification}
+
+The Vanna-Volga pricing method is a technique used to price first generation exotic options in foreign exchange market. This method derives from the trader's idea that the difference between market price and Black-Scholes price is the volatility smile impact, which could be adjusted with costs incurred by hedging three main risks associated to the volatility of the option: the Vega, the Vanna and the Volga.
+
+\section{Greeks} 
+The foreign exchange spot process is considered to follow Geometric Brownian motion (GBM). Thus we find the results we are able to obtain in equity markets hold in the case of FX options as well. \newline
+Then the Black-Scholes value of call option is:
+\begin{align}
+V_{call} &= Se^{r_fT}N(d_1) - Ke^{r_dT}N(d_2) \\
+V_{put} &=  Ke^{r_dT}N(-d_2) - Se^{r_fT}N(-d_1)
+\end{align}
+
+\[d_1 = \frac{1}{\sigma\sqrt{T}}\]
+\[d_2 = d_1 - \sigma \sqrt{T}\]
+
+where $r_d$ and $r_f$ are the domestic and foreign risk free rate, respectively. $T$ is the time to maturity. $N$ denotes as the cumulative density function of standard normal distribution. Below we will discuss the Greeks in the context of Black-Scholes model.
+
+\subsection{Vega}
+Vega $\nu$ is the first derivative of the option value with respect to the volatility $\sigma$. \newline
+By taking the derivative we have
+\begin{align}
+&\begin{aligned}
+\nu_C &=\frac{\partial C}{\partial \sigma} = Se^{r_fT}\varPhi(d_1)\frac{\partial d_1}{\partial \sigma}-Ke^{r_dT}\varPhi(d_2)\frac{\partial d_2}{\partial \sigma}\\
+&= Se^{r_fT}\varPhi(d_1)\frac{d_1 - d_2}{\sigma} \\
+&=  Se^{r_fT}\varPhi(d_1)\sqrt{T}
+\end{aligned} \\
+&\begin{aligned}
+\nu_P &=\frac{\partial P}{\partial \sigma} =-Ke^{r_dT}\varPhi(d_2)\frac{\partial d_2}{\partial \sigma} + Se^{r_fT}\varPhi(d_1)\frac{\partial d_1}{\partial \sigma}\\
+&= \nu_C 
+\end{aligned}
+\end{align}
+
+\subsection{Vanna}
+Vanna is the second order derivative of the option value, once to the volatility $\sigma$ and once to the initial spot price. \newline
+By taking the derivative we have:
+\begin{align}
+&\begin{aligned}
+Vanna_C &= \frac{\partial^2 C}{\partial S \partial \sigma} = \frac{\partial \Delta_C}{\partial \sigma} = e^{r_fT}\varPhi(d_1)\frac{\partial d_1}{\partial \sigma} \\
+&= e^{r_fT}\varPhi(d_1)\left( \sqrt{T} - \frac{d_1}{\sigma}\right) \\
+&= -\frac{d_2}{S\sigma \sqrt{T}}\nu_C
+\end{aligned} \\
+&\begin{aligned}
+Vanna_P &= \frac{\partial^2 P}{\partial S \partial \sigma} = \frac{\partial \Delta_P}{\partial \sigma} = e^{r_fT}\varPhi(d_1)\frac{\partial d_1}{\partial \sigma} \\
+&= Vanna_C
+\end{aligned}
+\end{align}
+
+\subsection{Volga}
+Volga is the second order derivative of the option value with respect to the volatility $\sigma$ twice. \newline
+By taking the derivative we have:
+\begin{align}
+&\begin{aligned}
+Volga_C &= \frac{\partial^2 C}{\partial^2 \sigma} = \frac{\partial \nu_C}{\partial \sigma} = e^{r_fT}S\sqrt{T}\frac{\partial \varPhi(d_1)}{\partial d_1}\frac{\partial d_1}{\partial \sigma} \\
+&= e^{r_fT}S\sqrt{T}\varPhi(d_1)\frac{d_1d_2}{\sigma} \\
+&= \frac{\nu_C d_1d_2}{\sigma}
+\end{aligned} \\
+&\begin{aligned}
+Volga_P &= \frac{\partial^2 P}{\partial^2 \sigma} = \frac{\partial \nu_P}{\partial \sigma} = \frac{\partial \nu_C}{\partial \sigma}  \\
+&= Volga_C
+\end{aligned}
+\end{align}
+
+\section{Model Framework and Equations}
+\subsection{Model Assumption and Justification} 
+
+\subsection{The Equation}
+The standard formulation of the Vanna-Volga pricing method is given by:
+\begin{align}
+X^{VV} &= X^{BS} + \frac{Vanna(X)}{Vanna(RR)}RR_{cost}+ \frac{Volga(X)}{Volga(BF)}BF_{cost}
+\end{align}
+where
+\begin{align}
+&\begin{aligned}
+RR_{cost} &= \left[Call\left( K_C,\sigma\left( K_C\right) \right) -Put\left( K_p,\sigma\left( K_p\right) \right)\right] \\
+&\quad - \left[Call\left( K_C,\sigma_0 \right) -Put\left( K_p,\sigma_0 \right)\right]
+\end{aligned} \\
+&\begin{aligned}
+BF_{cost} &= \frac{1}{2} \left[Call\left( K_C,\sigma\left( K_C\right) \right) +Put\left( K_p,\sigma\left( K_p\right) \right)\right] \\
+&\quad - \frac{1}{2}\left[Call\left( K_C,\sigma_0 \right) + Put\left( K_p,\sigma_0 \right)\right]
+\end{aligned}
+\end{align}
+and $X^{BS}$ denotes the Black-Scholes price of the vanilla option, Vanna and Volga are calculated with ATM volatility.
