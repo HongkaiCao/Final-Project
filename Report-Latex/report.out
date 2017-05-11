@@ -4,22 +4,33 @@
 \BOOKMARK [2][-]{subsection.2.1.1}{<any sub section here>}{section.2.1}% 4
 \BOOKMARK [2][-]{subsection.2.1.2}{Literature Survey}{section.2.1}% 5
 \BOOKMARK [1][-]{section.2.2}{Motivation}{chapter.2}% 6
-\BOOKMARK [0][-]{chapter.3}{Work Done}{}% 7
-\BOOKMARK [1][-]{section.3.1}{<Section title>}{chapter.3}% 8
-\BOOKMARK [2][-]{subsection.3.1.1}{<Sub-section title>}{section.3.1}% 9
-\BOOKMARK [2][-]{subsection.3.1.2}{<Sub-section title>}{section.3.1}% 10
-\BOOKMARK [2][-]{subsection.3.1.3}{<Sub-section title>}{section.3.1}% 11
-\BOOKMARK [2][-]{subsection.3.1.4}{<Sub-section title>}{section.3.1}% 12
-\BOOKMARK [2][-]{subsection.3.1.5}{<Sub-section title>}{section.3.1}% 13
-\BOOKMARK [1][-]{section.3.2}{<Section title>}{chapter.3}% 14
-\BOOKMARK [0][-]{chapter.4}{Test of Vanna-Volga Pricing}{}% 15
-\BOOKMARK [1][-]{section.4.1}{Data Source}{chapter.4}% 16
-\BOOKMARK [2][-]{subsection.4.1.1}{Volatility Matrix}{section.4.1}% 17
-\BOOKMARK [2][-]{subsection.4.1.2}{Model Implementation}{section.4.1}% 18
-\BOOKMARK [1][-]{section.4.2}{Testing Results}{chapter.4}% 19
-\BOOKMARK [0][-]{chapter.5}{Model Strengths and Weaknesses}{}% 20
-\BOOKMARK [1][-]{section.5.1}{Strengths}{chapter.5}% 21
-\BOOKMARK [1][-]{section.5.2}{Weaknesses}{chapter.5}% 22
-\BOOKMARK [0][-]{chapter.6}{Conclusion}{}% 23
-\BOOKMARK [0][-]{section*.14}{Acknowledgements}{}% 24
-\BOOKMARK [0][-]{section*.16}{References}{}% 25
+\BOOKMARK [0][-]{chapter.3}{Technical Specification}{}% 7
+\BOOKMARK [1][-]{section.3.1}{Greeks}{chapter.3}% 8
+\BOOKMARK [2][-]{subsection.3.1.1}{Vega}{section.3.1}% 9
+\BOOKMARK [2][-]{subsection.3.1.2}{Vanna}{section.3.1}% 10
+\BOOKMARK [2][-]{subsection.3.1.3}{Volga}{section.3.1}% 11
+\BOOKMARK [1][-]{section.3.2}{Model Framework and Equations}{chapter.3}% 12
+\BOOKMARK [2][-]{subsection.3.2.1}{Model Assumption and Justification}{section.3.2}% 13
+\BOOKMARK [2][-]{subsection.3.2.2}{The Equation}{section.3.2}% 14
+\BOOKMARK [0][-]{chapter.4}{Work Done}{}% 15
+\BOOKMARK [1][-]{section.4.1}{<Section title>}{chapter.4}% 16
+\BOOKMARK [2][-]{subsection.4.1.1}{<Sub-section title>}{section.4.1}% 17
+\BOOKMARK [2][-]{subsection.4.1.2}{<Sub-section title>}{section.4.1}% 18
+\BOOKMARK [2][-]{subsection.4.1.3}{<Sub-section title>}{section.4.1}% 19
+\BOOKMARK [2][-]{subsection.4.1.4}{<Sub-section title>}{section.4.1}% 20
+\BOOKMARK [2][-]{subsection.4.1.5}{<Sub-section title>}{section.4.1}% 21
+\BOOKMARK [1][-]{section.4.2}{<Section title>}{chapter.4}% 22
+\BOOKMARK [0][-]{chapter.5}{Test of Vanna-Volga Pricing}{}% 23
+\BOOKMARK [1][-]{section.5.1}{Data Source}{chapter.5}% 24
+\BOOKMARK [2][-]{subsection.5.1.1}{Volatility Matrix}{section.5.1}% 25
+\BOOKMARK [2][-]{subsection.5.1.2}{Model Implementation}{section.5.1}% 26
+\BOOKMARK [1][-]{section.5.2}{Testing Results}{chapter.5}% 27
+\BOOKMARK [0][-]{chapter.6}{Model Strengths and Weaknesses}{}% 28
+\BOOKMARK [1][-]{section.6.1}{Strengths}{chapter.6}% 29
+\BOOKMARK [1][-]{section.6.2}{Weaknesses}{chapter.6}% 30
+\BOOKMARK [0][-]{chapter.7}{Conclusion}{}% 31
+\BOOKMARK [0][-]{section*.14}{Acknowledgements}{}% 32
+\BOOKMARK [0][-]{appendix.A}{}{}% 33
+\BOOKMARK [1][-]{section.A.1}{Data Sources}{appendix.A}% 34
+\BOOKMARK [1][-]{section.A.2}{Definitions}{appendix.A}% 35
+\BOOKMARK [0][-]{section*.16}{References}{}% 36
