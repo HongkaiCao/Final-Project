@@ -14,12 +14,23 @@
 \contentsline {subsection}{\numberline {3.1.4}<Sub-section title>}{3}{subsection.3.1.4}
 \contentsline {subsection}{\numberline {3.1.5}<Sub-section title>}{3}{subsection.3.1.5}
 \contentsline {section}{\numberline {3.2}<Section title>}{3}{section.3.2}
-\contentsline {chapter}{\numberline {4}Model Strengths and Weaknesses}{4}{chapter.4}
-\contentsline {section}{\numberline {4.1}Strengths}{4}{section.4.1}
+\contentsline {chapter}{\numberline {4}Test of Vanna-Volga Pricing}{4}{chapter.4}
+\contentsline {section}{\numberline {4.1}Data Source}{4}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Volatility Matrix}{4}{subsection.4.1.1}
 \contentsline {paragraph}{}{4}{section*.5}
 \contentsline {paragraph}{}{4}{section*.6}
-\contentsline {section}{\numberline {4.2}Weaknesses}{5}{section.4.2}
 \contentsline {paragraph}{}{5}{section*.7}
-\contentsline {chapter}{\numberline {5}Conclusion}{6}{chapter.5}
-\contentsline {chapter}{Acknowledgements}{7}{section*.8}
-\contentsline {chapter}{References}{8}{section*.10}
+\contentsline {subsection}{\numberline {4.1.2}Model Implementation}{5}{subsection.4.1.2}
+\contentsline {paragraph}{}{5}{section*.8}
+\contentsline {paragraph}{}{5}{section*.9}
+\contentsline {section}{\numberline {4.2}Testing Results}{5}{section.4.2}
+\contentsline {paragraph}{}{5}{section*.10}
+\contentsline {chapter}{\numberline {5}Model Strengths and Weaknesses}{7}{chapter.5}
+\contentsline {section}{\numberline {5.1}Strengths}{7}{section.5.1}
+\contentsline {paragraph}{}{7}{section*.11}
+\contentsline {paragraph}{}{7}{section*.12}
+\contentsline {section}{\numberline {5.2}Weaknesses}{8}{section.5.2}
+\contentsline {paragraph}{}{8}{section*.13}
+\contentsline {chapter}{\numberline {6}Conclusion}{9}{chapter.6}
+\contentsline {chapter}{Acknowledgements}{10}{section*.14}
+\contentsline {chapter}{References}{11}{section*.16}

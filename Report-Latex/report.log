@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  10 MAY 2017 16:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  11 MAY 2017 10:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -176,7 +176,14 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip43
 )
-(./report.aux)
+(./report.aux
+
+LaTeX Warning: Label `fig:label' multiply defined.
+
+
+LaTeX Warning: Label `fig:label' multiply defined.
+
+)
 \openout1 = `report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
@@ -193,8 +200,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
 LaTeX Font Info:    ... okay on input line 16.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
 LaTeX Font Info:    ... okay on input line 16.
-
-(/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count99
 \scratchdimen=\dimen109
@@ -242,7 +248,7 @@ LaTeX Info: Redefining \nameref on input line 16.
 \openout3 = `report.out'.
 
  (./title.tex
-<./MFE-Logo.jpg, id=84, 687.56876pt x 169.63374pt>
+<./MFE-Logo.jpg, id=128, 687.56876pt x 169.63374pt>
 File: ./MFE-Logo.jpg Graphic file (type jpg)
  <use ./MFE-Logo.jpg>
 Package pdftex.def Info: ./MFE-Logo.jpg used on input line 4.
@@ -261,17 +267,17 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 [1
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./MFE-L
-ogo.jpg>]) (./report.toc)
+ogo.jpg>]) (./report.toc [1
+
+])
 \tf@toc=\write4
 \openout4 = `report.toc'.
 
- [1
-
-] (./report.lof)
+ [2] (./report.lof)
 \tf@lof=\write5
 \openout5 = `report.lof'.
 
- [2
+ [3
 
 ] (./executive-summary.tex
 Chapter 1.
@@ -292,28 +298,39 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 ]
 Chapter 3.
-<./glider.png, id=145, 216.81pt x 216.81pt>
+<./glider.png, id=211, 216.81pt x 216.81pt>
 File: ./glider.png Graphic file (type png)
  <use ./glider.png>
 Package pdftex.def Info: ./glider.png used on input line 17.
 (pdftex.def)             Requested size: 65.04349pt x 65.04349pt.
 )
-(./strength-weakness.tex [3
+(./test-pricing.tex [3
 
  <./glider.png>]
 Chapter 4.
+<./Testing-data/EURUSD.png, id=220, 1152.7065pt x 523.35526pt>
+File: ./Testing-data/EURUSD.png Graphic file (type png)
+
+<use ./Testing-data/EURUSD.png>
+Package pdftex.def Info: ./Testing-data/EURUSD.png used on input line 11.
+(pdftex.def)             Requested size: 345.81462pt x 157.00778pt.
+ [4
+
+ <./Testing-data/EURUSD.png>])
+(./strength-weakness.tex [5] [6]
+Chapter 5.
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 15.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 15.
- [4
+ [7
 
 ])
-(./conclusion.tex [5]
-Chapter 5.
-) (./acknow.tex [6
+(./conclusion.tex [8]
+Chapter 6.
+) (./acknow.tex [9
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 7--16
@@ -340,45 +357,79 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--16
 
  []
 
-[7
+[10
 
 
 ]) (./ref.tex)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 39.
- [8
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 40.
+ [11
 
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 39.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 40.
  (./report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 39.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 39.
-Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 933578AFAF9EB4638F361722E3F3F1DD;1229.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 39.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 40.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 40.
+
+
+Package rerunfilecheck Warning: File `report.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `report.out':
+(rerunfilecheck)             Before: 4A22B70FF0950BEA5212460BCA074B2A;1985
+(rerunfilecheck)             After:  A05128F6C42F9BA450F3E6E3F8FCBE3C;1558.
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 40.
  ) 
 Here is how much of TeX's memory you used:
- 5201 strings out of 493014
- 77485 string characters out of 6133351
- 160973 words of memory out of 5000000
- 8650 multiletter control sequences out of 15000+600000
+ 5247 strings out of 493014
+ 78156 string characters out of 6133351
+ 163079 words of memory out of 5000000
+ 8666 multiletter control sequences out of 15000+600000
  9317 words of font info for 33 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  29i,8n,28p,503b,381s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
-></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
-/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></u
-sr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr
-/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/lo
-cal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local
-/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/
-texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/t
-exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on report.pdf (11 pages, 143462 bytes).
+pdfTeX warning (dest): name{figure.4.2} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.4.3} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.4.2.5} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.4.2.4} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.4.2.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.4.2.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.4.2.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
+/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><
+/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></
+usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
+r/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
+local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/lo
+cal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/loca
+l/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/t
+exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texl
+ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive
+/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/
+2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2
+016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on report.pdf (15 pages, 281736 bytes).
 PDF statistics:
- 231 PDF objects out of 1000 (max. 8388607)
- 202 compressed objects within 3 object streams
- 44 named destinations out of 1000 (max. 500000)
- 171 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 335 PDF objects out of 1000 (max. 8388607)
+ 297 compressed objects within 3 object streams
+ 69 named destinations out of 1000 (max. 500000)
+ 264 words of extra memory for PDF output out of 10000 (max. 10000000)
 
