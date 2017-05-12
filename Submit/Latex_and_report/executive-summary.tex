@@ -1,0 +1,17 @@
+\chapter{Executive Summary}
+This paper examines the validity of Vanna-Volga Pricing method, a technique for pricing options in Foreign Exchange (FX) markets. 
+\newline
+\newline
+The Foreign Exchange option's market is the largest and most liquid market of options in the world. Numerous shares of options, ranging from simple vanilla options to exotics options, are traded everyday. Thus, it is imperative for any pricing model to provide a rapid and accurate mark-to-market price calculation.
+\newline
+\newline
+The most straightforward model would be Black-Scholes model, which could derive analytical prices based on several unrealistic assumptions. It is clearly wrong to assume that the interest rate and FX-spot volatility would remain constant throughout the the maturity of the option. These two factors would be assumed to follow stochastic processes in more realistic models, such as Heston model and SABR volatility model. These models are accurate and rigorous, while normally they are computationally demanding, complex to implement and need delicate calibration. 
+\newline
+\newline
+As an alternative approach, the Vanna-Volga method provide price adjustment for smile impact. It has easy implementation, efficient computation and simple or no calibration features. It takes a small amount of market quotes for liquid instruments and constructs an hedging portfolio which zeros out the sensitivity to volatility, up to second order (Vega, Vanna and Volga). Typically, the ATM options, Butterflies and Risk Reversals strategies are picked for construction. 
+\newline
+\newline
+In particular, we took the data from Bloomberg, \textit{investing.com}, and \textit{tradingeconomics.com} for our test. In order to verify the correction to Black-Scholes model, both Black-Shcoles model and Vanna-Volga model for pricing EUR/USD vanilla call options (we will use FX options as FX vanilla options, unless otherwise specified.) had been implemented in Python code. Industry used prices from Bloomberg pricing tools and \textit{investing.com} had been collected to be the banchmark prices. After carefully testing, our test showed that the Vanna-Volga model was better than Black-Scholes model for FX options pricing, and it was very close to the benchmark prices we collected. As Vanna-Volga model was targed to short-dated (typically less than 1Y) maturity FX options, a test with same procedure of 1M maturity for 1Y maturity EUR/USD call option was also conducted.
+\newline
+\newline
+Overall, the Vanna-Volga pricing method is easy to understand and provide reasonable results for FX option price. If more accurate results are required, a modified Vanna-Volga method is provided which takes into account some small but non-zero fraction of Vanna and Volga risks for strategies.
