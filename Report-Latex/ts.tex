@@ -15,7 +15,9 @@ where
 and $r_d$ and $r_f$ are the domestic and foreign risk free rate, respectively. $T$ is the time to maturity. $N$ denotes as the cumulative density function of standard normal distribution. Below we will discuss the Greeks in the context of Black-Scholes model.
 
 \subsection{Vega}
-Vega $\nu$ is the first derivative of the option value with respect to the volatility $\sigma$. \newline
+Vega $\nu$ is the first derivative of the option value with respect to the volatility $\sigma$. 
+\newline
+\newline
 By taking the derivative we have
 \begin{align}
 &\begin{aligned}
@@ -30,7 +32,9 @@ By taking the derivative we have
 \end{align}
 
 \subsection{Vanna}
-Vanna is the second order derivative of the option value, once to the volatility $\sigma$ and once to the initial spot price. \newline
+Vanna is the second order derivative of the option value, once to the volatility $\sigma$ and once to the initial spot price. 
+\newline
+\newline
 By taking the derivative we have:
 \begin{align}
 &\begin{aligned}
@@ -45,7 +49,9 @@ Vanna_P &= \frac{\partial^2 P}{\partial S \partial \sigma} = \frac{\partial \Del
 \end{align}
 
 \subsection{Volga}
-Volga is the second order derivative of the option value with respect to the volatility $\sigma$ twice. \newline
+Volga is the second order derivative of the option value with respect to the volatility $\sigma$ twice. 
+\newline
+\newline
 By taking the derivative we have:
 \begin{align}
 &\begin{aligned}
@@ -72,8 +78,12 @@ Vanna-Volga pricing method is a mathematical method for pricing options in forei
 	\item Volatility $\sigma$ is considered as a stochastic process which is obtained from the market at time $t$ for all $t$ before maturity $T$. 
 	\item The market is liquid and efficient and the transaction cost is not considered.
 \end{itemize}
-The log-normal distribution assumption for FX rate is reasonable. Although the log-normality of FX rate is not generally observed, but it provides a good approximation. \newline
-One most significant assumption under Black-Scholes model is the volatility. While in real market, volatility can be relatively constant in very short term, it is never constant in longer term. In the FX option market, the options are priced depending on their delta. Each time when exchange rate moves, the delta of option would change accordingly and a new implied volatility need to be plugged in the pricing formula. Unlike sophisticated stochastic volatility/local volatility/jumps models, the Vanna-Volga pricing method calculated volatility smile impact using relative constant volatility captured in market. \newline
+The log-normal distribution assumption for FX rate is reasonable. Although the log-normality of FX rate is not generally observed, but it provides a good approximation. 
+\newline
+\newline
+One most significant assumption under Black-Scholes model is the volatility. While in real market, volatility can be relatively constant in very short term, it is never constant in longer term. In the FX option market, the options are priced depending on their delta. Each time when exchange rate moves, the delta of option would change accordingly and a new implied volatility need to be plugged in the pricing formula. Unlike sophisticated stochastic volatility/local volatility/jumps models, the Vanna-Volga pricing method calculated volatility smile impact using relative constant volatility captured in market. 
+\newline
+\newline
 Just like Black-Scholes model, here we assume that any amount of options could be transacted in the market. Also the transaction cost is neglected, which is not realistic in real market.
 
 \subsection{The Simplified Vanna-Volga Equation}
@@ -94,6 +104,7 @@ BF_{cost} &= \frac{1}{2} \left[Call\left( K_C,\sigma\left( K_C\right) \right) +P
 \end{aligned}
 \end{align}
 and $X^{BS}$ denotes the Black-Scholes price of the vanilla option, Vanna and Volga of option $X$ are calculated with ATM volatility. \newline
+\newline
 It is worth noting that in this version of the Vanna-Volga pricing model, a small but non-zero fraction of Volga carried by RR and a small fraction of Vanna carried by BF are not taken into account. The risk associated with Vega is also neglected here.
 
 \subsection{The Exact Vanna-Volga method}

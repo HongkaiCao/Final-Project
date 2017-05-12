@@ -2,9 +2,15 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Volatility matrix data in the bid/ask format in terms of ATM, $10\Delta $, and $25\Delta $ butterflies (BF) and risk reversals (RR), observed on May 10, 2017. Source: \textit {Bloomberg}}}{8}{figure.4.1}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Prices of EUR/USD call options with data observed on May 10, 2017}}{10}{figure.4.2}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Volatility matrix data in the bid/ask format in terms of ATM, $10\Delta $, and $25\Delta $ butterflies (BF) and risk reversals (RR), observed on May 10, 2017. Source: \textit {Bloomberg}}}{9}{figure.4.1}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Prices of EUR/USD call options with 1M maturity. Data observed on May 10, 2017}}{11}{figure.4.2}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Prices of EUR/USD call options with 1Y maturity. Data observed on May 12, 2017}}{12}{figure.4.3}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces EUR/USD call prices from investing.com}}{13}{figure.A.1}
-\contentsline {figure}{\numberline {A.2}{\ignorespaces EUR/USD call prices with strike 1.065}}{14}{figure.A.2}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Interest rates from tradingeconomics.com}}{16}{figure.A.1}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces EUR/USD call prices from investing.com}}{16}{figure.A.2}
+\contentsline {figure}{\numberline {A.3}{\ignorespaces EUR/USD call prices from investing.com}}{17}{figure.A.3}
+\contentsline {figure}{\numberline {A.4}{\ignorespaces EUR/USD call prices with strike 1.065 and 1M maturity}}{17}{figure.A.4}
+\contentsline {figure}{\numberline {A.5}{\ignorespaces EUR/USD call prices with strike 1.06 and 1Y maturity}}{18}{figure.A.5}
+\contentsline {figure}{\numberline {A.6}{\ignorespaces Combined prices of EUR/USD with 1M maturity and different strikes}}{19}{figure.A.6}
+\contentsline {figure}{\numberline {A.7}{\ignorespaces Combined prices of EUR/USD with 1Y maturity and different strikes}}{19}{figure.A.7}

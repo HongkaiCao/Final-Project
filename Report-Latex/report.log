@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  12 MAY 2017 00:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  12 MAY 2017 16:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -231,11 +231,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \c@prop=\count111
 
-(./report.aux
-
-LaTeX Warning: Label `fig:prices-investing.com' multiply defined.
-
-)
+(./report.aux)
 \openout1 = `report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
@@ -252,7 +248,8 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
 LaTeX Font Info:    ... okay on input line 19.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
 LaTeX Font Info:    ... okay on input line 19.
- (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+
+(/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count112
 \scratchdimen=\dimen118
@@ -300,7 +297,7 @@ LaTeX Info: Redefining \nameref on input line 19.
 \openout3 = `report.out'.
 
  (./title.tex
-<./MFE-Logo.jpg, id=108, 687.56876pt x 169.63374pt>
+<./MFE-Logo.jpg, id=120, 687.56876pt x 169.63374pt>
 File: ./MFE-Logo.jpg Graphic file (type jpg)
  <use ./MFE-Logo.jpg>
 Package pdftex.def Info: ./MFE-Logo.jpg used on input line 4.
@@ -313,94 +310,251 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--5
 [1
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./MFE-L
-ogo.jpg>]) (./report.toc)
+ogo.jpg>]) (./report.toc [1
+
+])
 \tf@toc=\write4
 \openout4 = `report.toc'.
 
- [1
-
-] (./report.lof)
+ [2] (./report.lof)
 \tf@lof=\write5
 \openout5 = `report.lof'.
 
- [2
+ [3
 
 ] (./executive-summary.tex
 Chapter 1.
-) (./overview.texpdfTeX warning (ext4): destination with the same identifier (n
-ame{page.1}) has been already used, duplicate ignored
+) (./overview.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--1
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--1
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--1
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--1
+
+ []
+
+
+Overfull \hbox (12.73474pt too wide) in paragraph at lines 2--1
+\OT1/cmr/m/n/12 model, both Black-Shcoles model and Vanna-Volga model for pric-
+ing EUR/USD
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--1
+
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.1 \chapter
             {Overview} [1
 
-]
+] [2]
 Chapter 2.
-) (./ts.tex [2
+) (./ts.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--1
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--1
+
+ []
+
+[3
 
 ]
 Chapter 3.
-[3
 
-] [4]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 66.
+Underfull \hbox (badness 10000) in paragraph at lines 18--22
+
+ []
+
+[4
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 35--39
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--56
+
+ []
+
+[5]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 72.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 66.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 72.
 
-Overfull \hbox (19.79456pt too wide) in paragraph at lines 66--67
+Overfull \hbox (19.79456pt too wide) in paragraph at lines 72--73
 []\OT1/cmr/m/n/12 The con-sid-ered un-der-ly-ing as-set $\OML/cmm/m/it/12 S[]$ 
 \OT1/cmr/m/n/12 is an FX rate quoted in for-eign/domestic
  []
 
-[5] [6]) (./test-pricing.tex [7]
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--88
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--88
+
+ []
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 105--109
+
+ []
+
+[7]) (./test-pricing.tex [8]
 Chapter 4.
-<./Testing-data/EURUSD.png, id=217, 1152.7065pt x 523.35526pt>
-File: ./Testing-data/EURUSD.png Graphic file (type png)
 
-<use ./Testing-data/EURUSD.png>
-Package pdftex.def Info: ./Testing-data/EURUSD.png used on input line 11.
+<./Testing-data/VolMatrix/EURUSD_1M_vol.png, id=255, 1152.7065pt x 523.35526pt>
+File: ./Testing-data/VolMatrix/EURUSD_1M_vol.png Graphic file (type png)
+<use ./Testing-data/VolMatrix/EURUSD_1M_vol.png>
+Package pdftex.def Info: ./Testing-data/VolMatrix/EURUSD_1M_vol.png used on inp
+ut line 10.
 (pdftex.def)             Requested size: 345.81462pt x 157.00778pt.
- [8
 
- <./Testing-data/EURUSD.png>] [9]
-<./Testing-data/EURUSD-prices.png, id=236, 749.80125pt x 310.15875pt>
-File: ./Testing-data/EURUSD-prices.png Graphic file (type png)
+Underfull \hbox (badness 10000) in paragraph at lines 14--19
 
-<use ./Testing-data/EURUSD-prices.png>
-Package pdftex.def Info: ./Testing-data/EURUSD-prices.png used on input line 83
-.
-(pdftex.def)             Requested size: 374.8997pt x 155.079pt.
-) (./strength-weakness.tex [10 <./Testing-data/EURUSD-prices.png>]
+ []
+
+[9
+
+ <./Testing-data/VolMatrix/EURUSD_1M_vol.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 34--49
+
+ []
+
+[10]
+<./Testing-data/Python-codes/Python-4prices-1M.png, id=270, 768.8725pt x 326.21
+875pt>
+File: ./Testing-data/Python-codes/Python-4prices-1M.png Graphic file (type png)
+
+ <use ./Testing-data/Python-codes/Python-4prices-1M.png>
+Package pdftex.def Info: ./Testing-data/Python-codes/Python-4prices-1M.png used
+ on input line 92.
+(pdftex.def)             Requested size: 307.54355pt x 130.48518pt.
+ [11 <./Testing-data/Python-codes/Python-4prices-1M.png>]
+<./Testing-data/Python-codes/Python-4prices-1Y.png, id=277, 745.78625pt x 325.2
+15pt>
+File: ./Testing-data/Python-codes/Python-4prices-1Y.png Graphic file (type png)
+
+ <use ./Testing-data/Python-codes/Python-4prices-1Y.png>
+Package pdftex.def Info: ./Testing-data/Python-codes/Python-4prices-1Y.png used
+ on input line 125.
+(pdftex.def)             Requested size: 298.30922pt x 130.0837pt.
+ [12 <./Testing-data/Python-codes/Python-4prices-1Y.png>]) (./strength-weakness
+.tex [13]
 Chapter 5.
-[11
 
-]) (./appendices.tex [12]
+Underfull \hbox (badness 10000) in paragraph at lines 6--10
+
+ []
+
+[14
+
+]) (./appendices.tex [15]
 Appendix A.
-<./Testing-data/EURUSD_1M_investing.png, id=258, 675.52374pt x 498.86375pt>
-File: ./Testing-data/EURUSD_1M_investing.png Graphic file (type png)
 
-<use ./Testing-data/EURUSD_1M_investing.png>
-Package pdftex.def Info: ./Testing-data/EURUSD_1M_investing.png used on input l
-ine 8.
-(pdftex.def)             Requested size: 270.20471pt x 199.54196pt.
+<./Testing-data/online/interest_rate_tradingeconomics.png, id=298, 639.38875pt 
+x 258.9675pt>
+File: ./Testing-data/online/interest_rate_tradingeconomics.png Graphic file (ty
+pe png)
+ <use ./Testing-data/online/interest_rate_tradingeconomics.png>
+Package pdftex.def Info: ./Testing-data/online/interest_rate_tradingeconomics.p
+ng used on input line 7.
+(pdftex.def)             Requested size: 234.00238pt x 94.7772pt.
 
-<./Testing-data/Price-Bloomberg/EURUSD1065.PNG, id=259, 1153.30875pt x 635.976p
+<./Testing-data/online/EURUSD_1M_investing.png, id=299, 675.52374pt x 498.86375
+pt>
+File: ./Testing-data/online/EURUSD_1M_investing.png Graphic file (type png)
+ <use ./Testing-data/online/EURUSD_1M_investing.png>
+Package pdftex.def Info: ./Testing-data/online/EURUSD_1M_investing.png used on 
+input line 15.
+(pdftex.def)             Requested size: 202.65868pt x 149.66028pt.
+
+<./Testing-data/online/EURUSD_1Y_investing.png, id=300, 673.51625pt x 435.6275p
 t>
-File: ./Testing-data/Price-Bloomberg/EURUSD1065.PNG Graphic file (type png)
- <use ./Testing-data/Price-Bloomberg/EURUSD1065.PNG>
-Package pdftex.def Info: ./Testing-data/Price-Bloomberg/EURUSD1065.PNG used on 
-input line 17.
-(pdftex.def)             Requested size: 345.9953pt x 190.79427pt.
- [13
+File: ./Testing-data/online/EURUSD_1Y_investing.png Graphic file (type png)
+ <use ./Testing-data/online/EURUSD_1Y_investing.png>
+Package pdftex.def Info: ./Testing-data/online/EURUSD_1Y_investing.png used on 
+input line 21.
+(pdftex.def)             Requested size: 202.05643pt x 130.68925pt.
 
- <./Testing-data/EURUSD_1M_investing.png>] [14 <./Testing-data/Price-Bloomberg/
-EURUSD1065.PNG>])
-(./ref.tex [15])
+<./Testing-data/Heston-prices/May10EURUSD1M/eurusd1065HESTON1M.png, id=301, 115
+5.1155pt x 628.749pt>
+File: ./Testing-data/Heston-prices/May10EURUSD1M/eurusd1065HESTON1M.png Graphic
+ file (type png)
+
+<use ./Testing-data/Heston-prices/May10EURUSD1M/eurusd1065HESTON1M.png>
+Package pdftex.def Info: ./Testing-data/Heston-prices/May10EURUSD1M/eurusd1065H
+ESTON1M.png used on input line 29.
+(pdftex.def)             Requested size: 346.53732pt x 188.62614pt.
+
+<./Testing-data/Heston-prices/May12EURUSD1Y/eurusd106HESTON1Y.png, id=302, 1153
+.911pt x 619.71526pt>
+File: ./Testing-data/Heston-prices/May12EURUSD1Y/eurusd106HESTON1Y.png Graphic 
+file (type png)
+
+<use ./Testing-data/Heston-prices/May12EURUSD1Y/eurusd106HESTON1Y.png>
+Package pdftex.def Info: ./Testing-data/Heston-prices/May12EURUSD1Y/eurusd106HE
+STON1Y.png used on input line 36.
+(pdftex.def)             Requested size: 346.17596pt x 185.916pt.
+
+Overfull \hbox (36.15196pt too wide) in paragraph at lines 4--41
+\OT1/cmr/m/n/12 The prices of EUR/USD with 1M and 1Y ma-tu-rity ob-tained from 
+\OT1/cmr/m/it/12 www.investing.com
+ []
+
+[16
+
+ <./Testing-data/online/interest_rate_tradingeconomics.png> <./Testing-data/onl
+ine/EURUSD_1M_investing.png>] [17 <./Testing-data/online/EURUSD_1Y_investing.pn
+g> <./Testing-data/Heston-prices/May10EURUSD1M/eurusd1065HESTON1M.png>]
+[18 <./Testing-data/Heston-prices/May12EURUSD1Y/eurusd106HESTON1Y.png>]
+<./Testing-data/Python-codes/python-prices-1M.png, id=328, 616.3025pt x 189.708
+76pt>
+File: ./Testing-data/Python-codes/python-prices-1M.png Graphic file (type png)
+ <use ./Testing-data/Python-codes/python-prices-1M.png>
+Package pdftex.def Info: ./Testing-data/Python-codes/python-prices-1M.png used 
+on input line 76.
+(pdftex.def)             Requested size: 272.99881pt x 84.03368pt.
+
+<./Testing-data/Python-codes/python-prices-1Y.png, id=329, 611.28375pt x 183.68
+625pt>
+File: ./Testing-data/Python-codes/python-prices-1Y.png Graphic file (type png)
+ <use ./Testing-data/Python-codes/python-prices-1Y.png>
+Package pdftex.def Info: ./Testing-data/Python-codes/python-prices-1Y.png used 
+on input line 82.
+(pdftex.def)             Requested size: 272.99881pt x 82.033pt.
+) (./ref.tex
+Underfull \hbox (badness 10000) in paragraph at lines 70--1
+
+ []
+
+[19 <./Testing-data/Python-codes/python-prices-1M.png> <./Testing-data/Python-c
+odes/python-prices-1Y.png>])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 42.
- [16
+ [20
 
 
 ]
@@ -409,21 +563,17 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 42.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 42.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 42.
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 35747AEA937DADFA498D1229BC6D89FE;1635.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
+(rerunfilecheck)             Checksum: 3A6D813C8147779750F1F9AA002FCADA;1842.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 42.
  ) 
 Here is how much of TeX's memory you used:
- 5887 strings out of 493014
- 85825 string characters out of 6133351
- 178288 words of memory out of 5000000
- 9256 multiletter control sequences out of 15000+600000
+ 5934 strings out of 493014
+ 88005 string characters out of 6133351
+ 179936 words of memory out of 5000000
+ 9291 multiletter control sequences out of 15000+600000
  9822 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,16n,28p,654b,402s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,16n,28p,963b,386s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
 ></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
@@ -438,10 +588,10 @@ live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texl
 ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texliv
 e/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/
 2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on report.pdf (19 pages, 727171 bytes).
+Output written on report.pdf (24 pages, 1286761 bytes).
 PDF statistics:
- 371 PDF objects out of 1000 (max. 8388607)
- 323 compressed objects within 4 object streams
- 101 named destinations out of 1000 (max. 500000)
- 234 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 424 PDF objects out of 1000 (max. 8388607)
+ 359 compressed objects within 4 object streams
+ 105 named destinations out of 1000 (max. 500000)
+ 288 words of extra memory for PDF output out of 10000 (max. 10000000)
 

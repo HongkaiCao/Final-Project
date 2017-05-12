@@ -1,26 +1,43 @@
 \appendix
 \chapter{}
 \section{Data Sources}
-
-The prices of EUR/USD in \textit{www.investing.com} is following:
-\begin{figure}[htb]
+The interest rates used for Black-Scholes model and Vanna-Volga model were obtained from \textit{www.tradingeconomics.com} and was listed below.
+\begin{figure}[tbph]
 	\centering
-	\includegraphics[scale=0.4]{./Testing-data/EURUSD_1M_investing.png} 
+	\includegraphics[width=0.6\linewidth]{./Testing-data/online/interest_rate_tradingeconomics.png}
+	\caption{Interest rates from tradingeconomics.com}
+	\label{fig:interest-rate---trading-economics}
+\end{figure}
+\newline
+The prices of EUR/USD with 1M and 1Y maturity obtained from \textit{www.investing.com} were showing as following:
+\begin{figure}[tbph]
+	\centering
+	\includegraphics[scale=0.3]{./Testing-data/online/EURUSD_1M_investing.png} 
 	\caption{EUR/USD call prices from investing.com}
 	\label{fig:prices-investing.com} % insert suitable label, this is used to refer to a fig from within the text as shown above
 \end{figure}
-
-Since Bloomber has its own pricing model for FX options, the prices of EUR/USD call options with different strikes are obtained in Bloomberg terminal and listed below (using strike 1.065 as example).
-
+\begin{figure}[tbph]
+	\centering
+	\includegraphics[scale=0.3]{./Testing-data/online/EURUSD_1Y_investing.png} 
+	\caption{EUR/USD call prices from investing.com}
+	\label{fig:prices-investing.com-1Y} 
+\end{figure}
+\newline
+Since Bloomber has its own pricing model (chosed Heston in our report) for FX options, the prices of EUR/USD call options with different strikes are obtained in Bloomberg terminal and listed below (using strike 1.065 as example).
 \begin{figure}[htb]
 	\centering
-	\includegraphics[scale=0.3]{./Testing-data/Price-Bloomberg/EURUSD1065.PNG} 
-	\caption{EUR/USD call prices with strike 1.065}
+	\includegraphics[scale=0.3]{./Testing-data/Heston-prices/May10EURUSD1M/eurusd1065HESTON1M.png} 
+	\caption{EUR/USD call prices with strike 1.065 and 1M maturity}
 	
-	\label{fig:prices-investing.com} % insert suitable label, this is used to refer to a fig from within the text as shown above
+	\label{fig:prices-investing.com-Heston-1M} % insert suitable label, this is used to refer to a fig from within the text as shown above
 \end{figure}
-
-
+\begin{figure}[htb]
+	\centering
+	\includegraphics[scale=0.3]{./Testing-data/Heston-prices/May12EURUSD1Y/eurusd106HESTON1Y.png} 
+	\caption{EUR/USD call prices with strike 1.06 and 1Y maturity}
+	
+	\label{fig:prices-investing.com-1Y-Heston} % insert suitable label, this is used to refer to a fig from within the text as shown above
+\end{figure}
 \newpage
 \section{Definitions}
 25 and 10 $\Delta$-Risk-reversal (RR) volatility:
@@ -50,4 +67,19 @@ K=S_0e^{(r_d-r_f)T-\phi \sigma \sqrt{T} N^{-1}(\phi \Delta)+\frac{1}{2}\sigma^2T
 where $\phi=1$ for call, and $\phi=-1$ for put.
 
 \section{Python Code of Vanna-Volga Model}
-The codes of Vanna-Volga model had been implemented in jupyter notebook with kernel Python 3.5. Details of the codes could be found in the corresponding jupyter notebook with name as "MTH9845\_final\_project\_codes.ipynb". The jupyter notebook also had been converted to a pdf file with name as "MTH9845\_final\_project\_codes.pdf". Please see the details in the seperate files
+The codes of Vanna-Volga model had been implemented in jupyter notebook with kernel Python 3.5. Details of the codes could be found in the corresponding jupyter notebook with name as "MTH9845\_final\_project\_codes.ipynb". The jupyter notebook also had been converted to a pdf file with name as "MTH9845\_final\_project\_codes.pdf". Please see the details in the seperate files.
+\newline
+\newline
+The Black-Scholes prices and Vanna-Volga prices calculated by implemented codes had been put in the following figure. The prices from Bloomberg and \textit{inversting.com} were also included.
+\begin{figure}[tbph]
+	\centering
+	\includegraphics[width=0.7\linewidth]{./Testing-data/Python-codes/python-prices-1M.png}
+	\caption{Combined prices of EUR/USD with 1M maturity and different strikes}
+	\label{fig:prices-python-1M}
+\end{figure}
+\begin{figure}[tbph]
+	\centering
+	\includegraphics[width=0.7\linewidth]{./Testing-data/Python-codes/python-prices-1Y.png}
+	\caption{Combined prices of EUR/USD with 1Y maturity and different strikes}
+	\label{fig:prices-python-1Y}
+\end{figure}
