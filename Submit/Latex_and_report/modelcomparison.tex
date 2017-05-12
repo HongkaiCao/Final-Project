@@ -19,7 +19,7 @@ In Figure 5.2 we selected 1-month and 1-year EUR/USD option and showed the volat
 \newline\newline
 In addition to the simplified Vanna-Volga method we introduced in Chapter 3, several other models have been developed to mitigate the volatility smile impact. Here we will briefly introduce the exact Vanna-Volga pricing method and two stochastic volatility model: Heston model and SABR model.
 
-\section{The Exact Vanna-Volga method}
+\section{The Exact Vanna-Volga Method}
 As mentioned, the simplified method is a good approximation while neglecting some small fraction of Vanna and Volga. A modified Vanna-Volga method, which provide more accurate result, has been proposed (e.g. Carr et al. (2006), Fisher (2007)) and proved (Shkolnikov (2009)). It has been shown that the following proposition is true for any contract.
 \begin{prop}
 	Under the assumption that $S$ follows Geometric Brownian motion with stochastic but strike-independent implied volatility, there exists a unique self-financing portfolio $\Pi^{MK} = X^{MK}-\Delta^{MK} S-\sum_{i=1}^{3}x_i C_i^{MK}$ such that $\Pi^{MK} = \Pi^{BS}$ for any $0 \leq t \leq T$. It follows that the Vanna-Volga price is given by:
