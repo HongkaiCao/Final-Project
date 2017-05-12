@@ -1,6 +1,26 @@
 \appendix
 \chapter{}
 \section{Data Sources}
+
+The prices of EUR/USD in \textit{www.investing.com} is following:
+\begin{figure}[htb]
+	\centering
+	\includegraphics[scale=0.4]{./Testing-data/EURUSD_1M_investing.png} 
+	\caption{EUR/USD call prices from investing.com}
+	\label{fig:prices-investing.com} % insert suitable label, this is used to refer to a fig from within the text as shown above
+\end{figure}
+
+Since Bloomber has its own pricing model for FX options, the prices of EUR/USD call options with different strikes are obtained in Bloomberg terminal and listed below (using strike 1.065 as example).
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[scale=0.3]{./Testing-data/Price-Bloomberg/EURUSD1065.PNG} 
+	\caption{EUR/USD call prices with strike 1.065}
+	
+	\label{fig:prices-investing.com} % insert suitable label, this is used to refer to a fig from within the text as shown above
+\end{figure}
+
+
 \newpage
 \section{Definitions}
 25 and 10 $\Delta$-Risk-reversal (RR) volatility:
@@ -28,3 +48,6 @@ Strike retrived from deltas can be calculated through following equation:
 K=S_0e^{(r_d-r_f)T-\phi \sigma \sqrt{T} N^{-1}(\phi \Delta)+\frac{1}{2}\sigma^2T}
 \end{align}
 where $\phi=1$ for call, and $\phi=-1$ for put.
+
+\section{Python Code of Vanna-Volga Model}
+The codes of Vanna-Volga model had been implemented in jupyter notebook with kernel Python 3.5. Details of the codes could be found in the corresponding jupyter notebook with name as "MTH9845\_final\_project\_codes.ipynb". The jupyter notebook also had been converted to a pdf file with name as "MTH9845\_final\_project\_codes.pdf". Please see the details in the seperate files

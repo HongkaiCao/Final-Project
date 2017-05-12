@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  12 MAY 2017 00:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  12 MAY 2017 00:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -188,11 +188,6 @@ File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Option `bookmarks' set `true' on input line 4322.
 Package hyperref Info: Option `colorlinks' set `false' on input line 4322.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `alignment tab' on input line 4322.
-
 Package hyperref Info: Hyper figures OFF on input line 4446.
 Package hyperref Info: Link nesting OFF on input line 4451.
 Package hyperref Info: Hyper index ON on input line 4454.
@@ -238,7 +233,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 
 (./report.aux
 
-LaTeX Warning: Label `fig:label' multiply defined.
+LaTeX Warning: Label `fig:prices-investing.com' multiply defined.
 
 )
 \openout1 = `report.aux'.
@@ -305,7 +300,7 @@ LaTeX Info: Redefining \nameref on input line 19.
 \openout3 = `report.out'.
 
  (./title.tex
-<./MFE-Logo.jpg, id=164, 687.56876pt x 169.63374pt>
+<./MFE-Logo.jpg, id=108, 687.56876pt x 169.63374pt>
 File: ./MFE-Logo.jpg Graphic file (type jpg)
  <use ./MFE-Logo.jpg>
 Package pdftex.def Info: ./MFE-Logo.jpg used on input line 4.
@@ -318,17 +313,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--5
 [1
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./MFE-L
-ogo.jpg>]) (./report.toc [1
-
-])
+ogo.jpg>]) (./report.toc)
 \tf@toc=\write4
 \openout4 = `report.toc'.
 
- [2] (./report.lof)
+ [1
+
+] (./report.lof)
 \tf@lof=\write5
 \openout5 = `report.lof'.
 
- [3
+ [2
 
 ] (./executive-summary.tex
 Chapter 1.
@@ -362,7 +357,7 @@ Overfull \hbox (19.79456pt too wide) in paragraph at lines 66--67
 
 [5] [6]) (./test-pricing.tex [7]
 Chapter 4.
-<./Testing-data/EURUSD.png, id=297, 1152.7065pt x 523.35526pt>
+<./Testing-data/EURUSD.png, id=217, 1152.7065pt x 523.35526pt>
 File: ./Testing-data/EURUSD.png Graphic file (type png)
 
 <use ./Testing-data/EURUSD.png>
@@ -371,7 +366,7 @@ Package pdftex.def Info: ./Testing-data/EURUSD.png used on input line 11.
  [8
 
  <./Testing-data/EURUSD.png>] [9]
-<./Testing-data/EURUSD-prices.png, id=318, 749.80125pt x 310.15875pt>
+<./Testing-data/EURUSD-prices.png, id=236, 749.80125pt x 310.15875pt>
 File: ./Testing-data/EURUSD-prices.png Graphic file (type png)
 
 <use ./Testing-data/EURUSD-prices.png>
@@ -382,80 +377,51 @@ Package pdftex.def Info: ./Testing-data/EURUSD-prices.png used on input line 83
 Chapter 5.
 [11
 
-]) (./work-done.tex [12]
-Chapter 6.
-<./glider.png, id=341, 216.81pt x 216.81pt>
-File: ./glider.png Graphic file (type png)
- <use ./glider.png>
-Package pdftex.def Info: ./glider.png used on input line 17.
-(pdftex.def)             Requested size: 65.04349pt x 65.04349pt.
-)
-(./future-work.tex [13
-
- <./glider.png>]
-Chapter 7.
-) (./conclusion.tex [14
-
-]
-Chapter 8.
-) (./acknow.tex [15
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 7--16
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 7--16
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 7--16
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 7--16
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 7--16
-
- []
-
-[16
-
-
-]) (./appendices.tex
+]) (./appendices.tex [12]
 Appendix A.
-[17
+<./Testing-data/EURUSD_1M_investing.png, id=258, 675.52374pt x 498.86375pt>
+File: ./Testing-data/EURUSD_1M_investing.png Graphic file (type png)
 
-]) (./ref.tex [18])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 46.
- [19
+<use ./Testing-data/EURUSD_1M_investing.png>
+Package pdftex.def Info: ./Testing-data/EURUSD_1M_investing.png used on input l
+ine 8.
+(pdftex.def)             Requested size: 270.20471pt x 199.54196pt.
+
+<./Testing-data/Price-Bloomberg/EURUSD1065.PNG, id=259, 1153.30875pt x 635.976p
+t>
+File: ./Testing-data/Price-Bloomberg/EURUSD1065.PNG Graphic file (type png)
+ <use ./Testing-data/Price-Bloomberg/EURUSD1065.PNG>
+Package pdftex.def Info: ./Testing-data/Price-Bloomberg/EURUSD1065.PNG used on 
+input line 17.
+(pdftex.def)             Requested size: 345.9953pt x 190.79427pt.
+ [13
+
+ <./Testing-data/EURUSD_1M_investing.png>] [14 <./Testing-data/Price-Bloomberg/
+EURUSD1065.PNG>])
+(./ref.tex [15])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 42.
+ [16
 
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 46.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 42.
  (./report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 46.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 46.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 42.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 42.
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 30F05D975F94B00DC4896DE68ACC184F;2517.
+(rerunfilecheck)             Checksum: 35747AEA937DADFA498D1229BC6D89FE;1635.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 46.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 42.
  ) 
 Here is how much of TeX's memory you used:
- 5911 strings out of 493014
- 85871 string characters out of 6133351
- 177798 words of memory out of 5000000
- 9258 multiletter control sequences out of 15000+600000
- 10445 words of font info for 38 fonts, out of 8000000 for 9000
+ 5887 strings out of 493014
+ 85825 string characters out of 6133351
+ 178288 words of memory out of 5000000
+ 9256 multiletter control sequences out of 15000+600000
+ 9822 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  29i,16n,28p,654b,402s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
@@ -464,21 +430,18 @@ Here is how much of TeX's memory you used:
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
 /usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></u
 sr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr
-/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/l
-ocal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loc
-al/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local
-/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/te
-xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texli
-ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/
-2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2
-016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/201
-6/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2016/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2016/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on report.pdf (23 pages, 492459 bytes).
+/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/l
+ocal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/loc
+al/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/
+texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/tex
+live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texl
+ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texliv
+e/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/
+2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on report.pdf (19 pages, 727171 bytes).
 PDF statistics:
- 470 PDF objects out of 1000 (max. 8388607)
- 416 compressed objects within 5 object streams
- 113 named destinations out of 1000 (max. 500000)
- 341 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 371 PDF objects out of 1000 (max. 8388607)
+ 323 compressed objects within 4 object streams
+ 101 named destinations out of 1000 (max. 500000)
+ 234 words of extra memory for PDF output out of 10000 (max. 10000000)
 
