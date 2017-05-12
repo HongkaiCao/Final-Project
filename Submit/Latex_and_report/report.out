@@ -6,24 +6,28 @@
 \BOOKMARK [2][-]{subsection.3.1.2}{Vanna}{section.3.1}% 6
 \BOOKMARK [2][-]{subsection.3.1.3}{Volga}{section.3.1}% 7
 \BOOKMARK [1][-]{section.3.2}{Model Framework and Equations}{chapter.3}% 8
-\BOOKMARK [2][-]{subsection.3.2.1}{Model Assumption and Justification}{section.3.2}% 9
-\BOOKMARK [2][-]{subsection.3.2.2}{The Simplified Vanna-Volga Equation}{section.3.2}% 10
-\BOOKMARK [2][-]{subsection.3.2.3}{The Exact Vanna-Volga method}{section.3.2}% 11
-\BOOKMARK [2][-]{subsection.3.2.4}{Model Inputs}{section.3.2}% 12
-\BOOKMARK [2][-]{subsection.3.2.5}{Model Outputs}{section.3.2}% 13
-\BOOKMARK [0][-]{chapter.4}{Test of Vanna-Volga Pricing}{}% 14
-\BOOKMARK [1][-]{section.4.1}{Data Source}{chapter.4}% 15
-\BOOKMARK [2][-]{subsection.4.1.1}{Volatility Matrix}{section.4.1}% 16
-\BOOKMARK [2][-]{subsection.4.1.2}{Model Implementation}{section.4.1}% 17
-\BOOKMARK [1][-]{section.4.2}{Testing Results}{chapter.4}% 18
-\BOOKMARK [2][-]{subsection.4.2.1}{Short-dated Maturity}{section.4.2}% 19
-\BOOKMARK [2][-]{subsection.4.2.2}{1Y Maturity}{section.4.2}% 20
-\BOOKMARK [2][-]{subsection.4.2.3}{Test Conclusion}{section.4.2}% 21
-\BOOKMARK [0][-]{chapter.5}{Model Strengths and Weaknesses}{}% 22
-\BOOKMARK [1][-]{section.5.1}{Strengths}{chapter.5}% 23
-\BOOKMARK [1][-]{section.5.2}{Weaknesses}{chapter.5}% 24
-\BOOKMARK [0][-]{appendix.A}{}{}% 25
-\BOOKMARK [1][-]{section.A.1}{Data Sources}{appendix.A}% 26
-\BOOKMARK [1][-]{section.A.2}{Definitions}{appendix.A}% 27
-\BOOKMARK [1][-]{section.A.3}{Python Code of Vanna-Volga Model}{appendix.A}% 28
-\BOOKMARK [0][-]{section*.3}{References}{}% 29
+\BOOKMARK [2][-]{subsection.3.2.1}{Model Inputs}{section.3.2}% 9
+\BOOKMARK [2][-]{subsection.3.2.2}{The Simplified Vanna-Volga Process}{section.3.2}% 10
+\BOOKMARK [2][-]{subsection.3.2.3}{Model Outputs}{section.3.2}% 11
+\BOOKMARK [0][-]{chapter.4}{Review of Assumptions}{}% 12
+\BOOKMARK [0][-]{chapter.5}{Comparison to Other Models}{}% 13
+\BOOKMARK [1][-]{section.5.1}{The Exact Vanna-Volga Method}{chapter.5}% 14
+\BOOKMARK [1][-]{section.5.2}{Heston Model}{chapter.5}% 15
+\BOOKMARK [1][-]{section.5.3}{SABR Model}{chapter.5}% 16
+\BOOKMARK [1][-]{section.5.4}{Conclusion}{chapter.5}% 17
+\BOOKMARK [0][-]{chapter.6}{Test of Vanna-Volga Pricing}{}% 18
+\BOOKMARK [1][-]{section.6.1}{Data Source}{chapter.6}% 19
+\BOOKMARK [2][-]{subsection.6.1.1}{Volatility Matrix}{section.6.1}% 20
+\BOOKMARK [2][-]{subsection.6.1.2}{Model Implementation}{section.6.1}% 21
+\BOOKMARK [1][-]{section.6.2}{Testing Results}{chapter.6}% 22
+\BOOKMARK [2][-]{subsection.6.2.1}{Short-dated Maturity}{section.6.2}% 23
+\BOOKMARK [2][-]{subsection.6.2.2}{1Y Maturity}{section.6.2}% 24
+\BOOKMARK [2][-]{subsection.6.2.3}{Test Conclusion}{section.6.2}% 25
+\BOOKMARK [0][-]{chapter.7}{Model Strengths and Weaknesses}{}% 26
+\BOOKMARK [1][-]{section.7.1}{Strengths}{chapter.7}% 27
+\BOOKMARK [1][-]{section.7.2}{Weaknesses}{chapter.7}% 28
+\BOOKMARK [0][-]{appendix.A}{}{}% 29
+\BOOKMARK [1][-]{section.A.1}{Data Sources}{appendix.A}% 30
+\BOOKMARK [1][-]{section.A.2}{Definitions}{appendix.A}% 31
+\BOOKMARK [1][-]{section.A.3}{Python Code of Vanna-Volga Model}{appendix.A}% 32
+\BOOKMARK [0][-]{section*.3}{References}{}% 33
