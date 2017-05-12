@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  11 MAY 2017 12:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  12 MAY 2017 00:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -234,6 +234,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip46
 )
+\c@prop=\count111
+
 (./report.aux
 
 LaTeX Warning: Label `fig:label' multiply defined.
@@ -241,32 +243,32 @@ LaTeX Warning: Label `fig:label' multiply defined.
 )
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
  (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count111
+\scratchcounter=\count112
 \scratchdimen=\dimen118
 \scratchbox=\box28
-\nofMPsegments=\count112
-\nofMParguments=\count113
+\nofMPsegments=\count113
+\nofMParguments=\count114
 \everyMPshowfont=\toks20
-\MPscratchCnt=\count114
+\MPscratchCnt=\count115
 \MPscratchDim=\dimen119
-\MPnumerator=\count115
-\makeMPintoPDFobject=\count116
+\MPnumerator=\count116
+\makeMPintoPDFobject=\count117
 \everyMPtoPDFconversion=\toks21
 ) (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -284,7 +286,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box29
-Package hyperref Info: Link coloring OFF on input line 17.
+Package hyperref Info: Link coloring OFF on input line 19.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -292,18 +294,18 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count117
+\c@section@level=\count118
 )
-LaTeX Info: Redefining \ref on input line 17.
-LaTeX Info: Redefining \pageref on input line 17.
-LaTeX Info: Redefining \nameref on input line 17.
+LaTeX Info: Redefining \ref on input line 19.
+LaTeX Info: Redefining \pageref on input line 19.
+LaTeX Info: Redefining \nameref on input line 19.
 
 (./report.out) (./report.out)
 \@outlinefile=\write3
 \openout3 = `report.out'.
 
  (./title.tex
-<./MFE-Logo.jpg, id=148, 687.56876pt x 169.63374pt>
+<./MFE-Logo.jpg, id=164, 687.56876pt x 169.63374pt>
 File: ./MFE-Logo.jpg Graphic file (type jpg)
  <use ./MFE-Logo.jpg>
 Package pdftex.def Info: ./MFE-Logo.jpg used on input line 4.
@@ -345,41 +347,58 @@ Chapter 2.
 Chapter 3.
 [3
 
-] [4]) (./work-done.tex [5]
-Chapter 4.
-<./glider.png, id=263, 216.81pt x 216.81pt>
-File: ./glider.png Graphic file (type png)
- <use ./glider.png>
-Package pdftex.def Info: ./glider.png used on input line 17.
-(pdftex.def)             Requested size: 65.04349pt x 65.04349pt.
+] [4]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 66.
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-(./test-pricing.tex [6
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 66.
 
- <./glider.png>]
-Chapter 5.
-<./Testing-data/EURUSD.png, id=271, 1152.7065pt x 523.35526pt>
+Overfull \hbox (19.79456pt too wide) in paragraph at lines 66--67
+[]\OT1/cmr/m/n/12 The con-sid-ered un-der-ly-ing as-set $\OML/cmm/m/it/12 S[]$ 
+\OT1/cmr/m/n/12 is an FX rate quoted in for-eign/domestic
+ []
+
+[5] [6]) (./test-pricing.tex [7]
+Chapter 4.
+<./Testing-data/EURUSD.png, id=297, 1152.7065pt x 523.35526pt>
 File: ./Testing-data/EURUSD.png Graphic file (type png)
 
 <use ./Testing-data/EURUSD.png>
 Package pdftex.def Info: ./Testing-data/EURUSD.png used on input line 11.
 (pdftex.def)             Requested size: 345.81462pt x 157.00778pt.
- [7
+ [8
 
- <./Testing-data/EURUSD.png>])
-(./strength-weakness.tex [8] [9]
+ <./Testing-data/EURUSD.png>] [9]
+<./Testing-data/EURUSD-prices.png, id=318, 749.80125pt x 310.15875pt>
+File: ./Testing-data/EURUSD-prices.png Graphic file (type png)
+
+<use ./Testing-data/EURUSD-prices.png>
+Package pdftex.def Info: ./Testing-data/EURUSD-prices.png used on input line 83
+.
+(pdftex.def)             Requested size: 374.8997pt x 155.079pt.
+) (./strength-weakness.tex [10 <./Testing-data/EURUSD-prices.png>]
+Chapter 5.
+[11
+
+]) (./work-done.tex [12]
 Chapter 6.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 15.
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+<./glider.png, id=341, 216.81pt x 216.81pt>
+File: ./glider.png Graphic file (type png)
+ <use ./glider.png>
+Package pdftex.def Info: ./glider.png used on input line 17.
+(pdftex.def)             Requested size: 65.04349pt x 65.04349pt.
 )
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 15.
- [10
+(./future-work.tex [13
 
-])
-(./conclusion.tex [11]
+ <./glider.png>]
 Chapter 7.
-) (./acknow.tex [12
+) (./conclusion.tex [14
+
+]
+Chapter 8.
+) (./acknow.tex [15
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 7--16
@@ -406,39 +425,39 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--16
 
  []
 
-[13
+[16
 
 
 ]) (./appendices.tex
 Appendix A.
-[14
+[17
 
-]) (./ref.tex [15])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 43.
- [16
+]) (./ref.tex [18])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 46.
+ [19
 
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 43.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 46.
  (./report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 43.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 43.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 46.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 46.
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: EB14CB2161CF157878FF1B830159F20A;2232.
+(rerunfilecheck)             Checksum: 30F05D975F94B00DC4896DE68ACC184F;2517.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 43.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 46.
  ) 
 Here is how much of TeX's memory you used:
- 5875 strings out of 493014
- 85354 string characters out of 6133351
- 177756 words of memory out of 5000000
- 9241 multiletter control sequences out of 15000+600000
+ 5911 strings out of 493014
+ 85871 string characters out of 6133351
+ 177798 words of memory out of 5000000
+ 9258 multiletter control sequences out of 15000+600000
  10445 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,16n,28p,503b,386s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,16n,28p,654b,402s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
 ></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
@@ -456,10 +475,10 @@ ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/
 6/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2016/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2016/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on report.pdf (20 pages, 333114 bytes).
+Output written on report.pdf (23 pages, 492459 bytes).
 PDF statistics:
- 422 PDF objects out of 1000 (max. 8388607)
- 374 compressed objects within 4 object streams
- 98 named destinations out of 1000 (max. 500000)
- 304 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 470 PDF objects out of 1000 (max. 8388607)
+ 416 compressed objects within 5 object streams
+ 113 named destinations out of 1000 (max. 500000)
+ 341 words of extra memory for PDF output out of 10000 (max. 10000000)
 
