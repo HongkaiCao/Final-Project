@@ -66,27 +66,16 @@ Volga_P &= \frac{\partial^2 P}{\partial^2 \sigma} = \frac{\partial \nu_P}{\parti
 \end{align}
 
 \section{Model Framework and Equations}
-\subsection{Model Assumption and Justification} 
-Vanna-Volga pricing method is a mathematical method for pricing options in foreign exchange market. Thus, it follows some basic assumptions for the FX options. Here are some assumptions about the market and the options:
+\subsection{Model Inputs}
+As shown above, the key inputs are:
 \begin{itemize}
-	\item The considered underlying asset $S_t$ is an FX rate quoted in foreign/domestic format. For example, EUR/USD open today is 1.0868, which means 1 EUR is worth 1.0868 USD and in this case EUR is foreign currency and USD is the domestic currency.
-	\item The underlying asset, FX rate, is assumed to follow Geometric Brownian motion (GBM)
-	\begin{align}
-	dS_t = \left( r_d - r_f\right) S_tdt + \sigma_t S_t dB_t
-	\end{align}  
-	\item The FX option is European style, which could only be executed at maturity time T.
-	\item Volatility $\sigma$ is considered as a stochastic process which is obtained from the market at time $t$ for all $t$ before maturity $T$. 
-	\item The market is liquid and efficient and the transaction cost is not considered.
+	\item The foreign exchange rate. Published real-time in Bloomberg terminal.
+	\item The interest rate from each country.
+	\item The volatility matrix in the bid/ask format in terms of ATM, 25$\Delta$ and 10$\Delta$ butterflies and risk reversals.
+	\item The maturity time.
 \end{itemize}
-The log-normal distribution assumption for FX rate is reasonable. Although the log-normality of FX rate is not generally observed, but it provides a good approximation. 
-\newline
-\newline
-One most significant assumption under Black-Scholes model is the volatility. While in real market, volatility can be relatively constant in very short term, it is never constant in longer term. In the FX option market, the options are priced depending on their delta. Each time when exchange rate moves, the delta of option would change accordingly and a new implied volatility need to be plugged in the pricing formula. Unlike sophisticated stochastic volatility/local volatility/jumps models, the Vanna-Volga pricing method calculated volatility smile impact using relative constant volatility captured in market. 
-\newline
-\newline
-Just like Black-Scholes model, here we assume that any amount of options could be transacted in the market. Also the transaction cost is neglected, which is not realistic in real market.
 
-\subsection{The Simplified Vanna-Volga Equation}
+\subsection{The Simplified Vanna-Volga Process}
 The simplified formulation of the Vanna-Volga pricing method could be found in several publications: Wystup (2006), Castagna and Mercurio (2006) and Bossens et al. (2010).
 The equation is given by:
 \begin{align}
@@ -107,30 +96,9 @@ and $X^{BS}$ denotes the Black-Scholes price of the vanilla option, Vanna and Vo
 \newline
 It is worth noting that in this version of the Vanna-Volga pricing model, a small but non-zero fraction of Volga carried by RR and a small fraction of Vanna carried by BF are not taken into account. The risk associated with Vega is also neglected here.
 
-\subsection{The Exact Vanna-Volga method}
-As mentioned in last section, the simplified method is a good approximation but not exact. A modified Vanna-Volga method has been proposed (e.g. Carr et al. (2006), Fisher (2007)) and proved (Shkolnikov (2009)). It has been shown that the following proposition is true for any contract.
-\begin{prop}
-	Under the assumption that $S$ follows Geometric Brownian motion with stochastic but strike-independent implied volatility, there exists a unique self-financing portfolio $\Pi^{MK} = X^{MK}-\Delta^{MK} S-\sum_{i=1}^{3}x_i C_i^{MK}$ such that $\Pi^{MK} = \Pi^{BS}$ for any $0 \leq t \leq T$. It follows that the Vanna-Volga price is given by:
-	\begin{align}
-	X_{VV} = X^{BS}+\sum_{i=1}^{3}x_i\left( C_i - C_{i}^{BS}\right) 
-	\end{align}
-\end{prop}
-It is worth noting that in the exact formula, the pivot calls and pivot puts could be used interchangeably due to the put-call parity. Using puts would change the value of delta but the coefficient vector $x$ would not be affected. \newline
-In this report, we would focus on the simplified Vanna-Volga method which has easy implementation and simple calculation.
-
-\subsection{Model Inputs}
-As shown above, the key inputs are:
-\begin{itemize}
-	\item The foreign exchange rate. Published real-time in Bloomberg terminal.
-	\item The interest rate from each country.
-	\item The volatility matrix in the bid/ask format in terms of ATM, 25$\Delta$ and 10$\Delta$ butterflies and risk reversals.
-	\item The maturity time.
-\end{itemize}
-
 \subsection{Model Outputs}
 The outputs would be:
 \begin{itemize}
-	\item Option price calculated using Black-Scholes formula
 	\item 25$\Delta$ and 10$\Delta$ butterflies cost
 	\item 25$\Delta$ and 10$\Delta$ risk reversals cost
 	\item Greeks. Vanna for option and risk reversals strategy, Volga for option and butterflies strategy.
