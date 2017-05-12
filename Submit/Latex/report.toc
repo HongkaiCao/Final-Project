@@ -1,0 +1,38 @@
+\contentsline {chapter}{\numberline {1}Executive Summary}{1}{chapter.1}
+\contentsline {chapter}{\numberline {2}Overview}{2}{chapter.2}
+\contentsline {chapter}{\numberline {3}Technical Specification}{3}{chapter.3}
+\contentsline {section}{\numberline {3.1}Greeks}{3}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Vega}{4}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Vanna}{4}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Volga}{4}{subsection.3.1.3}
+\contentsline {section}{\numberline {3.2}Model Framework and Equations}{5}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Model Assumption and Justification}{5}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}The Simplified Vanna-Volga Equation}{6}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}The Exact Vanna-Volga method}{6}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Model Inputs}{7}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.5}Model Outputs}{7}{subsection.3.2.5}
+\contentsline {chapter}{\numberline {4}Test of Vanna-Volga Pricing}{8}{chapter.4}
+\contentsline {section}{\numberline {4.1}Data Source}{8}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Volatility Matrix}{8}{subsection.4.1.1}
+\contentsline {paragraph}{}{8}{section*.3}
+\contentsline {paragraph}{}{8}{section*.4}
+\contentsline {paragraph}{}{9}{section*.5}
+\contentsline {subsection}{\numberline {4.1.2}Model Implementation}{9}{subsection.4.1.2}
+\contentsline {paragraph}{}{9}{section*.6}
+\contentsline {paragraph}{}{9}{section*.7}
+\contentsline {section}{\numberline {4.2}Testing Results}{9}{section.4.2}
+\contentsline {paragraph}{}{9}{section*.8}
+\contentsline {paragraph}{}{10}{section*.9}
+\contentsline {paragraph}{}{10}{section*.10}
+\contentsline {paragraph}{}{10}{section*.11}
+\contentsline {chapter}{\numberline {5}Model Strengths and Weaknesses}{11}{chapter.5}
+\contentsline {section}{\numberline {5.1}Strengths}{11}{section.5.1}
+\contentsline {paragraph}{}{11}{section*.12}
+\contentsline {paragraph}{}{11}{section*.13}
+\contentsline {section}{\numberline {5.2}Weaknesses}{12}{section.5.2}
+\contentsline {paragraph}{}{12}{section*.14}
+\contentsline {chapter}{\numberline {A}}{13}{appendix.A}
+\contentsline {section}{\numberline {A.1}Data Sources}{13}{section.A.1}
+\contentsline {section}{\numberline {A.2}Definitions}{14}{section.A.2}
+\contentsline {section}{\numberline {A.3}Python Code of Vanna-Volga Model}{15}{section.A.3}
+\contentsline {chapter}{References}{16}{section*.15}
