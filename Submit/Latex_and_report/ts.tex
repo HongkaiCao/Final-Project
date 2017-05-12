@@ -1,6 +1,6 @@
 \chapter{Technical Specification}
 
-The Vanna-Volga pricing method is a technique used to price first generation exotic options in foreign exchange market. This method derives from the trader's idea that the difference between market price and Black-Scholes price is the volatility smile impact, which could be adjusted with costs incurred by hedging three main risks associated to the volatility of the option: the Vega, the Vanna and the Volga.
+The Vanna-Volga pricing method is a technique used to price vanilla and exotic options in foreign exchange market. This method derives from the trader's idea that the difference between market price and Black-Scholes price is the volatility smile impact, which could be adjusted with costs incurred by hedging three main risks associated to the volatility of the option: the Vega, the Vanna and the Volga.
 
 \section{Greeks} 
 The foreign exchange spot process is considered to follow Geometric Brownian motion (GBM). Thus we find the results we are able to obtain in equity markets hold in the case of FX options as well. \newline
@@ -84,12 +84,12 @@ X^{VV} &= X^{BS} + \frac{Vanna(X)}{Vanna(RR)}RR_{cost}+ \frac{Volga(X)}{Volga(BF
 where
 \begin{align}
 &\begin{aligned}
-RR_{cost} &= \left[Call\left( K_C,\sigma\left( K_C\right) \right) -Put\left( K_p,\sigma\left( K_p\right) \right)\right] \\
-&\quad - \left[Call\left( K_C,\sigma_0 \right) -Put\left( K_p,\sigma_0 \right)\right]
+RR_{cost} &= \left[Call\left( K_C,\sigma\left( K_C\right) \right) -Put\left( K_P,\sigma\left( K_P\right) \right)\right] \\
+&\quad - \left[Call\left( K_C,\sigma_0 \right) -Put\left( K_P,\sigma_0 \right)\right]
 \end{aligned} \\
 &\begin{aligned}
-BF_{cost} &= \frac{1}{2} \left[Call\left( K_C,\sigma\left( K_C\right) \right) +Put\left( K_p,\sigma\left( K_p\right) \right)\right] \\
-&\quad - \frac{1}{2}\left[Call\left( K_C,\sigma_0 \right) + Put\left( K_p,\sigma_0 \right)\right]
+BF_{cost} &= \frac{1}{2} \left[Call\left( K_C,\sigma\left( K_C\right) \right) +Put\left( K_P,\sigma\left( K_P\right) \right)\right] \\
+&\quad - \frac{1}{2}\left[Call\left( K_C,\sigma_0 \right) + Put\left( K_P,\sigma_0 \right)\right]
 \end{aligned}
 \end{align}
 and $X^{BS}$ denotes the Black-Scholes price of the vanilla option, Vanna and Volga of option $X$ are calculated with ATM volatility. \newline
