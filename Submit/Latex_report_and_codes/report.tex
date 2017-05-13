@@ -1,0 +1,44 @@
+% LaTeX format of Model Validation for Baruch 2017 MTH9845 Risk Management class
+%
+% Created by: Hongchao Pan & Yu Sun
+% Version 1.0
+% Date: 04/25/2017
+% Contact Info: hpan.baruch@gmail.com & yusun.baruch@gmail.com
+%
+% Just compile this main file
+
+\documentclass[12pt,a4paper]{report}
+\usepackage{amsmath} %for greeks
+\usepackage[pdftex]{graphicx} %for embedding images
+\usepackage{url} %for proper url entries
+\usepackage[bookmarks, colorlinks=false, pdfborder={0 0 0}, pdftitle={MTH9845 Model Validation}, pdfauthor={Hongchao Pan and Yu Sun}, pdfsubject={<subject here>}, pdfkeywords={<keywords here>}]{hyperref} %for creating links in the pdf version and other additional pdf attributes, no effect on the printed document
+%\usepackage[final]{pdfpages} %for embedding another pdf, remove if not required
+
+\newtheorem{prop}{Proposition}
+
+\begin{document}
+\renewcommand\bibname{References} %Renames "Bibliography" to "References" on ref page
+
+%include other pages
+\input{./title.tex}
+%\input{./certificate.tex} % Not need this for our model validation report
+%\input{./abstract.tex}  % Not need this for our model validation report
+
+\pagenumbering{roman} %numbering before main content starts
+\tableofcontents
+\listoffigures
+
+\newpage
+\pagenumbering{arabic} %reset numbering to normal for the main content
+
+\input{./executive-summary.tex}  % Executive Summary
+\input{./overview.tex}  % Overview
+\input{./ts.tex}
+\input{./assumption.tex}
+\input{./modelcomparison.tex}
+\input{./test-pricing.tex}
+\input{./strength-weakness.tex}
+\input{./appendices.tex}
+\input{./ref.tex}
+
+\end{document}

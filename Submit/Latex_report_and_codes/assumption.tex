@@ -1,0 +1,20 @@
+\chapter{Review of Assumptions}
+
+Vanna-Volga pricing method is a mathematical method for pricing options in foreign exchange market. Thus, it follows some basic assumptions for the FX options. Here are some assumptions about the market and the options:
+\begin{itemize}
+	\item The considered underlying asset $S_t$ is an FX rate quoted in foreign/domestic format. For example, EUR/USD open today is 1.087 (May 12, 2017), which means 1 EUR is worth 1.087 USD and in this case EUR is foreign currency and USD is the domestic currency.
+	\item The underlying asset, FX rate, is assumed to follow Geometric Brownian motion (GBM)
+	\begin{align}
+	dS_t = \left( r_d - r_f\right) S_tdt + \sigma_t S_t dB_t
+	\end{align}  
+	\item The FX option is European style, which could only be executed at maturity time T.
+	\item Volatility $\sigma$ is considered as a stochastic process which is obtained from the market at time $t$ for all $t$ before maturity $T$. 
+	\item The market is liquid and efficient and the transaction cost is not considered.
+\end{itemize}
+The log-normal distribution assumption for FX rate is reasonable. Although the log-normality of FX rate is not generally observed, but it provides a good approximation. 
+\newline
+\newline
+One most significant assumption under Black-Scholes model is the volatility. While in real market, volatility can be relatively constant in very short term, it is never constant in longer term. In the FX option market, the options are priced depending on their delta. Each time when exchange rate moves, the delta of option would change accordingly and a new implied volatility need to be plugged in the pricing formula. Unlike sophisticated stochastic volatility/local volatility/jumps models, the Vanna-Volga pricing method calculated volatility smile impact using relative constant volatility captured in market. 
+\newline
+\newline
+Just like Black-Scholes model, here we assume that any amount of options could be transacted in the market. Also the transaction cost is neglected, which is not realistic in real market.
